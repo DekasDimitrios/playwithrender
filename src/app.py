@@ -21,7 +21,7 @@ dtable = dash_table.DataTable(
     style_table={"overflowX": "auto"},
 )
 
-download_button = html.Button("Download Filtered CSV", style={"marginTop": 20})
+download_button = html.Button("Press the Button to Download Filtered CSV", style={"marginTop": 20})
 download_component = dcc.Download()
 
 app.layout = html.Div(
